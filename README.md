@@ -6,8 +6,12 @@
 
 ## Para rodar o projeto, tanto o backend quanto o frontend
 
-$ npm start
+$ npm start 
 
+
+## Para testar a página de login, sem precisar criar um novo 
+
+id 2a02ba13 
 
 
 
