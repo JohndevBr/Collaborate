@@ -4,7 +4,8 @@ import { FiArrowLeft } from 'react-icons/fi';
 
 import './styles.css';
 
-import logoImg from '../../assets/logo.svg'
+import LogoImg from '../../assets/collaborate.png';
+
 import api from '../../services/api';
 
 
@@ -35,7 +36,7 @@ export default function Register(){
       <div className="content">
         
         <section>
-          <img src={logoImg} alt="Be The Hero"/>
+          <img src={LogoImg} alt="Be The Hero"/>
           <h1>Cadastro</h1>
           <p>Faça seu cadastro e tenha uma melhor gestão dos funcionários da sua empresa </p>
           <Link className="back-link" to="/"> 
